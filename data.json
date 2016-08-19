@@ -1,0 +1,9 @@
+{
+	"api": {
+		"key": "dc25ff4d05ca1e7205f6ef09dece013acfea32ff",
+		"baseURL": "https://osu.ppy.sh/api/"
+	},
+	"refreshInterval": 60000000000,
+	"port": 3000,
+	"playerList": ["Rafis", "Cookiezi", "hvick225", "AngeLMegumin", "Vaxei"]
+}
