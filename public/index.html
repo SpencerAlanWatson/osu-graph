@@ -21,20 +21,21 @@
 
         // Create the data table.
         var data = new google.visualization.DataTable();
-        data.addColumn('string', 'Topping');
-        data.addColumn('number', 'Slices');
+        data.addColumn('number', 'Play');
+        data.addColumn('number', 'Rafis');
+		data.addColumn('number', 'Cookiezi');
         data.addRows([
-          ['Mushrooms', 3],
-          ['Onions', 1],
-          ['Olives', 1],
-          ['Zucchini', 1],
-          ['Pepperoni', 2]
+          [1, 714, 727],
+          [2, 708, 712],
+          [3, 705, 702],
+          [4, 673, 700],
+          [5, 658, 698]
         ]);
 
         // Set chart options
         var options = {'title':'Top play\'s chart.',
-                       'width':400,
-                       'height':300};
+                       'width': 1000,
+                       'height': 750};
 
         // Instantiate and draw our chart, passing in some options.
         var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
@@ -43,6 +44,6 @@
     </script>
 </head>
 <body>
-	
+	<div id="chart_div"></div>
 </body>
 </html>
