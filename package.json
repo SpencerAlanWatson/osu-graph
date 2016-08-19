@@ -1,7 +1,7 @@
 {
   "name": "osu!graph",
   "version": "1.0.0",
-  "description": "A web application to compare osu!players top scores",
+  "description": "A web application to compare osu!players top scores.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,7 +13,7 @@
     "data",
     "website"
   ],
-  "author": "Spencer Alan WAtson",
+  "author": "Spencer Alan Watson",
   "license": "ISC",
   "dependencies": {
     "express": "^4.14.0"
